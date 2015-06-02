@@ -1,0 +1,8 @@
+BlackBox Toolkit
+=============
+[![Alt text](http://s14.postimg.org/a1yhsqbe9/BLACKBOX.png)](http://www.blackbox-os.gq)
+
+Credits
+----------------
+
+This app has been made from scratch to serve devices with BlackBox Kernel's.
