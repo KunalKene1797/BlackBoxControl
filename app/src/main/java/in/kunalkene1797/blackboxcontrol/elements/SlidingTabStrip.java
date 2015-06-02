@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package in.kunalkene1797.blackboxcontrols.elements;
+package in.kunalkene1797.blackboxcontrol.elements;
 
 import android.R;
 import android.content.Context;

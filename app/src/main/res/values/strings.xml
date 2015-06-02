@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">BlackBox Controls</string>
+    <string name="app_name">BlackBox Control</string>
 
     <string name="title_section1">Dashboard</string>
     <string name="title_section2">CPU</string>

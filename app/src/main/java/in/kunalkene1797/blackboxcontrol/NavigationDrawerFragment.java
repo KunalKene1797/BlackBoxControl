@@ -1,4 +1,4 @@
-package in.kunalkene1797.blackboxcontrols;
+package in.kunalkene1797.blackboxcontrol;
 
 import android.support.v7.app.ActionBarActivity;
 import android.app.Activity;
