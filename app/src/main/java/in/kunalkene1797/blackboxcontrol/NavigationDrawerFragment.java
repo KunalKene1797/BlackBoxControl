@@ -118,15 +118,15 @@ public class NavigationDrawerFragment extends Fragment implements NavigationDraw
 
     public List<NavigationItem> getMenu() {
         List<NavigationItem> items = new ArrayList<NavigationItem>();
-        items.add(new NavigationItem("BlackBox Dashboard", getResources().getDrawable(R.drawable.ic_menu_check)));
-        items.add(new NavigationItem("BlackBox Updater", getResources().getDrawable(R.drawable.ic_menu_check)));
-        items.add(new NavigationItem("CPU", getResources().getDrawable(R.drawable.ic_menu_check)));
-        items.add(new NavigationItem("Battery", getResources().getDrawable(R.drawable.ic_menu_check)));
-        items.add(new NavigationItem("Wake Controls", getResources().getDrawable(R.drawable.ic_menu_check)));
-        items.add(new NavigationItem("I/O Schedulers", getResources().getDrawable(R.drawable.ic_menu_check)));
-        items.add(new NavigationItem("Misc. Tweaks", getResources().getDrawable(R.drawable.ic_menu_check)));
-        items.add(new NavigationItem("Settings", getResources().getDrawable(R.drawable.ic_menu_check)));
-        items.add(new NavigationItem("About Me", getResources().getDrawable(R.drawable.ic_menu_check)));
+        items.add(new NavigationItem("BlackBox Dashboard", getResources().getDrawable(R.drawable.dashboard)));
+        items.add(new NavigationItem("BlackBox Updater", getResources().getDrawable(R.drawable.updater)));
+        items.add(new NavigationItem("CPU", getResources().getDrawable(R.drawable.cpu)));
+        items.add(new NavigationItem("Battery", getResources().getDrawable(R.drawable.battery)));
+        items.add(new NavigationItem("Wake Controls", getResources().getDrawable(R.drawable.wake)));
+        items.add(new NavigationItem("I/O Schedulers", getResources().getDrawable(R.drawable.io)));
+        items.add(new NavigationItem("Misc. Tweaks", getResources().getDrawable(R.drawable.misc)));
+        items.add(new NavigationItem("Settings", getResources().getDrawable(R.drawable.settings)));
+        items.add(new NavigationItem("About Me", getResources().getDrawable(R.drawable.me)));
         return items;
     }
 
