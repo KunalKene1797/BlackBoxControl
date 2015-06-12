@@ -70,12 +70,21 @@ public class MainActivity extends ActionBarActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_refresh) {
+            Toast.makeText(this, "Refresh", Toast.LENGTH_SHORT).show();
             return true;
         }
-
+        if (id == R.id.action_reset) {
+            Toast.makeText(this, "Reset", Toast.LENGTH_SHORT).show();
+            return true;
+        }
+        if (id == R.id.action_settings) {
+            Toast.makeText(this, "Will Launch Settings", Toast.LENGTH_SHORT).show();
+            return true;
+        }
         return super.onOptionsItemSelected(item);
     }
+
 
 
 }
